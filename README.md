@@ -9,11 +9,11 @@ This is a work in progress
 
 
 ABS License:
-=================================================================
+============
  Address Book Script ReadMe File
  Homepage URL : http://www.phpkobo.com/address_book.php
  ID : AB201-117 [G100]
-=================================================================
+
 
 [Installation Guide]
 
