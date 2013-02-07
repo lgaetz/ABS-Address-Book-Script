@@ -93,7 +93,7 @@
 			<td style='text-align:center;'><?php echo $hm->Zb('rs:def:active'); ?></td>
 			<td style='text-align:left;'><?php echo $hm->Zb('rs:def:first_name'); ?></td>
 			<td style='text-align:left;'><?php echo $hm->Zb('rs:def:last_name'); ?></td>
-			<td style='text-align:left;'><A HREF="./dial.php?IN=<?php echo $ext; ?>&amp;OUT=<?php echo $hm->Zb('rs:def:tel'); ?>"><?php echo $hm->Zb('rs:def:tel'); ?></a></td>
+			<td style='text-align:left;'><A HREF="../asterisk/dial.php?IN=<?php echo $ext; ?>&amp;OUT=<?php echo $hm->Zb('rs:def:tel'); ?>"><?php echo $hm->Zb('rs:def:tel'); ?></a></td>
 			                             
 			<td style='text-align:left;'><?php echo $hm->Zb('rs:def:fax'); ?></td>
 			<td style='text-align:left;'><?php echo $hm->Zb('rs:def:cell'); ?></td>
