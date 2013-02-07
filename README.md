@@ -18,6 +18,7 @@ Installation
 Usage
 =====
 
+* Browse to <server IP>/<abs folder>/staff
 * Login first time with admin/password
 * Create login credentials for each user and include the extension # of each user in the form SIP/201
 * Create address book entires, Digits only for tel number column (for the present)
