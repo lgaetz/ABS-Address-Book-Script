@@ -66,6 +66,7 @@
 			<th><?php echo RSTR_USERNAME; ?></th>
 			<th><?php echo RSTR_EMAIL; ?></th>
 			<th><?php echo RSTR_NAME; ?></th>
+			<th>Ext</th>
 		</tr>
 
 		<?php while( $hm->zb('@rs:def:begin_table') ) { ?>
@@ -79,6 +80,7 @@
 			<td style='text-align:left;'><?php echo $hm->Zb('rs:def:username'); ?></td>
 			<td style='text-align:left;'><?php echo $hm->Zb('rs:def:email'); ?></td>
 			<td style='text-align:left;'><?php echo $hm->Zb('rs:def:name'); ?></td>
+			<td style='text-align:left;'><?php echo $hm->Zb('rs:def:extension'); ?></td>
 		</tr>
 		<?php } ?>
 
