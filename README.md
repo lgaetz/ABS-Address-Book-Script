@@ -11,11 +11,19 @@ Installation
 ============
 
 * Copy project files into subfolder of webroot, chown and chmod as req'd
-* Follow instructions here for installing ABS: 
-* http://www.phpkobo.com/doc.php?d=install&p=AB201-117
-* manually create the MySQL database and user (if req'd) using instructions here:
-* http://www.phpkobo.com/doc.php?d=setup_db_params&p=
+* Follow instructions here for installing ABS: http://www.phpkobo.com/doc.php?d=install&p=AB201-117
+* manually create the MySQL database and user (if req'd) using instructions here: http://www.phpkobo.com/doc.php?d=setup_db_params&p=
 * For Asterisk click to dial integration, locate the file asterisk/config.php and set the variables as req'd for your PBX
+
+Usage
+=====
+
+* Login first time with admin/password
+* Create login credentials for each user and include the extension # of each user in the form SIP/201
+* Create address book entires, Digits only for tel number column (for the present)
+* In search mode, phone number column entries are links.  When clicked the PBX will bridge a call between that number and the user's ext number
+ 
+
 
 ABS License:
 ============
