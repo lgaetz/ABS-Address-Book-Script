@@ -60,6 +60,7 @@ CREATE TABLE IF NOT EXISTS `tbl_staff` (
   `rlog_last_login_date_time` datetime default NULL,
   `email` varchar(100) default NULL,
   `name` varchar(64) default NULL,
+  `extension` varchar(20) default NULL,
   PRIMARY KEY  (`staff_id`),
   UNIQUE KEY `username` (`username`)
 ) ENGINE=MyISAM  AUTO_INCREMENT=1002  DEFAULT CHARSET=utf8;
