@@ -22,7 +22,7 @@ echo "port: $strPort<br>";
 echo "user: $strUser<br>";
 echo "secret: $strSecret<br>";
 ************************/
-
+echo "Now bridging<br>Extension: $strChannel<br>Number: $number." ;
 $errno=0 ;
 $errstr=0 ;
 $strCallerId = "Web Call $number";
@@ -47,6 +47,6 @@ if (!$oSocket) {
 	sleep(2) ;
 	fclose ($oSocket);
 }
-//	echo "Extension $strChannel should be calling $number." ;
-	
+
+
 ?>

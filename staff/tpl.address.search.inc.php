@@ -12,7 +12,19 @@
 
 <!-- [BEGIN] Main Form -->
 <div id="main_div">
+
+
+<!--  following lines added for Asterisk integration -->
 <?php $ext = $this->sys->AuthSession->GetV( "extension" ); ?>
+<script>
+  function openNewWindow(url) {
+     window.open(url, 'pukarock', 'width=300, height=50, scrollbars=no, resizable=yes')
+  }
+</script>
+
+
+
+
 <?php include(INC_FORM_BEGIN); ?>
 
 <?php include(INC_BODY_INFO); ?>
@@ -93,7 +105,7 @@
 			<td style='text-align:center;'><?php echo $hm->Zb('rs:def:active'); ?></td>
 			<td style='text-align:left;'><?php echo $hm->Zb('rs:def:first_name'); ?></td>
 			<td style='text-align:left;'><?php echo $hm->Zb('rs:def:last_name'); ?></td>
-			<td style='text-align:left;'><A HREF="../asterisk/dial.php?IN=<?php echo $ext; ?>&amp;OUT=<?php echo $hm->Zb('rs:def:tel'); ?>"><?php echo $hm->Zb('rs:def:tel'); ?></a></td>
+			<td style='text-align:left;'><a href="../asterisk/dial.php?IN=<?php echo $ext; ?>&amp;OUT=<?php echo $hm->Zb('rs:def:tel'); ?>" onclick="openNewWindow(this.href); return false;"><?php echo $hm->Zb('rs:def:tel'); ?></a></td>
 			                             
 			<td style='text-align:left;'><?php echo $hm->Zb('rs:def:fax'); ?></td>
 			<td style='text-align:left;'><?php echo $hm->Zb('rs:def:cell'); ?></td>
