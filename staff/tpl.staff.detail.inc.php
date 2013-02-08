@@ -129,7 +129,7 @@
 			<?php if ( $b_reg || $b_edit ) { ?>
 			<span class="required"></span>
 			<?php } ?>
-			Extension :
+			<?php echo RSTR_EXTENSION; ?> :
 		</td>
 		<td class='column_value'><?php echo $hm->Zb('rs:def:extension'); ?>
 		<?php if ( $b_reg || $b_edit ) { ?>

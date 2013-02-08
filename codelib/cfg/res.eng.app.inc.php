@@ -37,6 +37,7 @@ define( 'RSTR_LEAVE_PASSWORD_BLANK',
 	'(Leave it blank to keep the current password.)' );
 define( 'RSTR_EMAIL', 'Email' );
 define( 'RSTR_NAME', 'Name' );
+define( 'RSTR_EXTENSION', 'Extension' );
 
 //-- Address
 define( 'RSTR_ADDRESS', 'Address' );

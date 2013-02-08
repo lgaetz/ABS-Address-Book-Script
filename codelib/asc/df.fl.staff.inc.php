@@ -88,7 +88,7 @@ XA_LIST=>'(ses)(reg_save)'
 
 'extension'=>array(
 XA_CLASS=>'CVAsciiText',
-XA_CAPTION=>RSTR_USERNAME,
+XA_CAPTION=>RSTR_EXTENSION,
 XA_SIZE=>15,
 XA_REQUIRED=>false,
 XA_MIN_CHAR=>0,
