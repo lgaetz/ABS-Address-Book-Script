@@ -45,7 +45,7 @@
 	</tr>
 
 	<tr>
-		<td align="right"><?php echo RSTR_FAX; ?> : </td>
+		<td align="right"><strike><?php echo RSTR_FAX; ?></strike>URI : </td>
 		<td align="left"><?php echo $hm->Zb( 'sp:def:fax' ); ?></td>
 		<td align="right"><?php echo RSTR_CELL; ?> : </td>
 		<td align="left"><?php echo $hm->Zb( 'sp:def:cell' ); ?></td>
@@ -106,10 +106,9 @@
 			<td style='text-align:left;'><?php echo $hm->Zb('rs:def:first_name'); ?></td>
 			<td style='text-align:left;'><?php echo $hm->Zb('rs:def:last_name'); ?></td>
 			<td style='text-align:left;'><a href="../asterisk/dial.php?IN=<?php echo $ext; ?>&amp;OUT=<?php echo $hm->Zb('rs:def:tel'); ?>" onclick="openNewWindow(this.href); return false;"><?php echo $hm->Zb('rs:def:tel'); ?></a></td>
-			                             
 			<td style='text-align:left;'><a href="../asterisk/sipdial.php?IN=<?php echo $ext; ?>&amp;OUT=<?php echo $hm->Zb('rs:def:fax'); ?>" onclick="openNewWindow(this.href); return false;"><?php echo $hm->Zb('rs:def:fax'); ?></a></td>
-			<td style='text-align:left;'><?php echo $hm->Zb('rs:def:cell'); ?></td>
-			<td style='text-align:left;'><?php echo $hm->Zb('rs:def:email'); ?></td>
+			<td style='text-align:left;'><a href="../asterisk/dial.php?IN=<?php echo $ext; ?>&amp;OUT=<?php echo $hm->Zb('rs:def:cell'); ?>" onclick="openNewWindow(this.href); return false;"><?php echo $hm->Zb('rs:def:cell'); ?></a></td>
+			<td style='text-align:left;'><a href="mailto:<?php echo $hm->Zb('rs:def:email'); ?>"><?php echo $hm->Zb('rs:def:email'); ?></a></td>
 		</tr>
 		<?php } ?>
 
