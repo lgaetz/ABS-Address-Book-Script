@@ -1,13 +1,13 @@
 <?php
 
 // specify IP address of asterisk server (if localhost or 127.0.0.1 don't work try actual ip)
-$strHost = "10.41.2.10";
+$strHost = "host ip address";
 // specify manager port number
 $strPort = "5038";
 // specify the asterisk manager username you want to login with
-$strUser = "lorne";
+$strUser = "username";
 // specify the password for the above user
-$strSecret = "lorne";
+$strSecret = "password";
 // Specify context, probably should be from-internal
 $strContext = "from-internal";
 // specify the amount of time you want to try calling the specified channel before hangin up

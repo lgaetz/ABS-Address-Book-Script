@@ -78,7 +78,7 @@
 	<tr>
 		<td class='column_caption'>
 			<?php if ( $b_reg || $b_edit ) { ?><span class="required"></span><?php } ?>
-			<?php echo RSTR_FAX; ?> :
+			<strike><?php echo RSTR_FAX; ?></strike>URI :
 		</td>
 		<td class='column_value'><?php echo $hm->Zb('rs:def:fax'); ?>
 		</td>

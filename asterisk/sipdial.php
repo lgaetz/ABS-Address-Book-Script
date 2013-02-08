@@ -39,8 +39,8 @@ if (!$oSocket) {
 	sleep(1) ;
 	fputs ($oSocket, "Action: Originate\r\n");
 	fputs ($oSocket, "Channel: $strChannel\r\n");
-	fputs ($oSocket, "Application: macro\r\n");
-	fputs ($oSocket, "Data: uridial,$number\r\n");
+	fputs ($oSocket, "Application: Dial\r\n");
+	fputs ($oSocket, "Data: SIP/$number,120,tr\r\n");
 	fputs ($oSocket, "Priority: $strPriority\r\n\r\n");
 	fputs ($oSocket, "Callerid: $strCallerId\r\n\r\n");
 	fputs ($oSocket, "Timeout: 30\r\n\r\n");

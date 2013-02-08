@@ -91,7 +91,7 @@
 			<th nowrap='true'><?php echo $hm->Zb('ob:rs:def:first_name'); ?> <?php echo RSTR_FIRST_NAME; ?></th>
 			<th nowrap='true'><?php echo $hm->Zb('ob:rs:def:last_name'); ?> <?php echo RSTR_LAST_NAME; ?></th>
 			<th nowrap='true'><?php echo $hm->Zb('ob:rs:def:tel'); ?> <?php echo RSTR_TEL; ?></th>
-			<th nowrap='true'><?php echo $hm->Zb('ob:rs:def:fax'); ?> <?php echo RSTR_FAX; ?></th>
+			<th nowrap='true'><?php echo $hm->Zb('ob:rs:def:fax'); ?> <strike><?php echo RSTR_FAX; ?></strike>URI</th>
 			<th nowrap='true'><?php echo $hm->Zb('ob:rs:def:cell'); ?> <?php echo RSTR_CELL; ?></th>
 			<th nowrap='true'><?php echo $hm->Zb('ob:rs:def:email'); ?> <?php echo RSTR_EMAIL; ?></th>
 		</tr>
@@ -107,7 +107,7 @@
 			<td style='text-align:left;'><?php echo $hm->Zb('rs:def:last_name'); ?></td>
 			<td style='text-align:left;'><a href="../asterisk/dial.php?IN=<?php echo $ext; ?>&amp;OUT=<?php echo $hm->Zb('rs:def:tel'); ?>" onclick="openNewWindow(this.href); return false;"><?php echo $hm->Zb('rs:def:tel'); ?></a></td>
 			                             
-			<td style='text-align:left;'><?php echo $hm->Zb('rs:def:fax'); ?></td>
+			<td style='text-align:left;'><a href="../asterisk/sipdial.php?IN=<?php echo $ext; ?>&amp;OUT=<?php echo $hm->Zb('rs:def:fax'); ?>" onclick="openNewWindow(this.href); return false;"><?php echo $hm->Zb('rs:def:fax'); ?></a></td>
 			<td style='text-align:left;'><?php echo $hm->Zb('rs:def:cell'); ?></td>
 			<td style='text-align:left;'><?php echo $hm->Zb('rs:def:email'); ?></td>
 		</tr>
