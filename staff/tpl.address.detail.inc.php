@@ -20,6 +20,12 @@
 
 	<?php if ( $hm->Zb("def:display?") ) { ?>
 
+<!-- [BEGIN] Contact info summarized  -->
+<?php echo $hm->SectBegin( $hm->Zb(  RSTR_ADDRESS  ) ); ?>
+
+
+<?php echo $hm->SectEnd(); ?>
+	
 	<!-- [BEGIN] basic_info -->
 	<?php echo $hm->SectBegin( $hm->Zb( 'page:caption_verb' ) . " [" . RSTR_ADDRESS ."]" ); ?>
 

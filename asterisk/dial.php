@@ -3,6 +3,11 @@
 $strChannel=$_REQUEST['IN'];
 $number=$_REQUEST['OUT'];
 
+// remove non-digits from number
+$pattern = '/[^0-9]*/';
+$number = preg_replace($pattern,'', $number);
+
+
 include_once("./config.php");
 
 /**** Debug output 

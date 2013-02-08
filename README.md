@@ -21,8 +21,8 @@ Usage
 * Browse to `<server IP>/<abs folder>/staff`
 * Login first time with admin/password
 * Create login credentials for each user and include the extension # of each user in the form SIP/201
-* Create address book entires, Digits only for tel number column (for the present)
-* In search mode, phone number column entries are links.  When clicked the PBX will bridge a call between that number and the user's ext number
+* Create address book entires
+* In search mode, the phone number columns contain icons that when clicked will bridge a call between the number and the logged in user's extension
  
 
 

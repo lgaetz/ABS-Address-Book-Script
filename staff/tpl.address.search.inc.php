@@ -105,10 +105,10 @@
 			<td style='text-align:center;'><?php echo $hm->Zb('rs:def:active'); ?></td>
 			<td style='text-align:left;'><?php echo $hm->Zb('rs:def:first_name'); ?></td>
 			<td style='text-align:left;'><?php echo $hm->Zb('rs:def:last_name'); ?></td>
-			<td style='text-align:left;'><a href="../asterisk/dial.php?IN=<?php echo $ext; ?>&amp;OUT=<?php echo $hm->Zb('rs:def:tel'); ?>" onclick="openNewWindow(this.href); return false;"><?php echo $hm->Zb('rs:def:tel'); ?></a></td>
-			<td style='text-align:left;'><a href="../asterisk/sipdial.php?IN=<?php echo $ext; ?>&amp;OUT=<?php echo $hm->Zb('rs:def:fax'); ?>" onclick="openNewWindow(this.href); return false;"><?php echo $hm->Zb('rs:def:fax'); ?></a></td>
-			<td style='text-align:left;'><a href="../asterisk/dial.php?IN=<?php echo $ext; ?>&amp;OUT=<?php echo $hm->Zb('rs:def:cell'); ?>" onclick="openNewWindow(this.href); return false;"><?php echo $hm->Zb('rs:def:cell'); ?></a></td>
-			<td style='text-align:left;'><a href="mailto:<?php echo $hm->Zb('rs:def:email'); ?>"><?php echo $hm->Zb('rs:def:email'); ?></a></td>
+			<td style='text-align:left;'><a href="../asterisk/dial.php?IN=<?php echo $ext; ?>&amp;OUT=<?php echo $hm->Zb('rs:def:tel'); ?>" onclick="openNewWindow(this.href); return false;"><img src="images/icons/phone-icon.png"></a><?php echo $hm->Zb('rs:def:tel'); ?></td>
+			<td style='text-align:left;'><a href="../asterisk/sipdial.php?IN=<?php echo $ext; ?>&amp;OUT=<?php echo $hm->Zb('rs:def:fax'); ?>" onclick="openNewWindow(this.href); return false;"><img src="images/icons/phone-icon.png"></a><?php echo $hm->Zb('rs:def:fax'); ?></td>
+			<td style='text-align:left;'><a href="../asterisk/dial.php?IN=<?php echo $ext; ?>&amp;OUT=<?php echo $hm->Zb('rs:def:cell'); ?>" onclick="openNewWindow(this.href); return false;"><img src="images/icons/phone-icon.png"></a><?php echo $hm->Zb('rs:def:cell'); ?></td>
+			<td style='text-align:left;'><a href="mailto:<?php echo $hm->Zb('rs:def:email'); ?>"><img src="images/icons/email-icon-16x16.png"></a><?php echo $hm->Zb('rs:def:email'); ?></td>
 		</tr>
 		<?php } ?>
 
