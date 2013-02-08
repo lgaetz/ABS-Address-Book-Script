@@ -127,7 +127,7 @@
 	<tr>
 		<td class='column_caption'>
 			<?php if ( $b_reg || $b_edit ) { ?>
-			<span class="required">*</span>
+			<span class="required"></span>
 			<?php } ?>
 			Extension :
 		</td>
